@@ -1,0 +1,65 @@
+@import '../components/colors';
+
+.icon {
+  display: inline-block;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-position: center;
+  vertical-align: middle;
+}
+
+.icon_address {
+  mask-image: url('../../img/svg/contact1.svg');
+  -webkit-mask-image: url('../../img/svg/contact1.svg');
+  background-color: $royal_night;
+  width: 18px;
+  height: 27px;
+}
+
+.icon_phone {
+  mask-image: url('../../img/svg/contact2.svg');
+  -webkit-mask-image: url('../../img/svg/contact2.svg');
+  background-color: $royal_night;
+  width: 21px;
+  height: 24px;
+}
+
+.icon_mail {
+  mask-image: url('../../img/svg/contact3.svg');
+  -webkit-mask-image: url('../../img/svg/contact3.svg');
+  background-color: $royal_night;
+  width: 22.5px;
+  height: 18.35px;
+}
+
+.icon_telegram {
+  mask-image: url('../../img/svg/1social_telegram.svg');
+  -webkit-mask-image: url('../../img/svg/1social_telegram.svg');
+  background-color: $royal_night;
+  width: 18px;
+  height: 15.67px;
+}
+.icon_instagram {
+  mask-image: url('../../img/svg/2social_instagram.svg');
+  -webkit-mask-image: url('../../img/svg/2social_instagram.svg');
+  background-color: $royal_night;
+  width: 18px;
+  height: 18px;
+}
+.icon_facebook {
+  mask-image: url('../../img/svg/3social_facebook.svg');
+  -webkit-mask-image: url('../../img/svg/3social_facebook.svg');
+  background-color: $royal_night;
+  width: 9.35px;
+  height: 18px;
+}
+.icon_youtube {
+  mask-image: url('../../img/svg/4social_youtube.svg');
+  -webkit-mask-image: url('../../img/svg/4social_youtube.svg');
+  background-color: $royal_night;
+  width: 24px;
+  height: 16.1px;
+}

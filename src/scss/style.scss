@@ -1,0 +1,51 @@
+@import './abstracts/mixins';
+@import './abstracts/variables';
+@import './base/typography';
+@import './base/icons';
+@import './components/colors';
+@import './components/box-shadows';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container_two {
+  max-width: 1244px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'ObjectSans-Heavy', sans-serif;
+  @include text_dimensions(50px, 52px, center, $aare_river);
+  @include m_query(tablet_two) {
+    @include text_dimensions(40px, 42px, center, null);
+  }
+  @include m_query(tablet) {
+    @include text_dimensions(30px, 32px, center, null);
+  }
+  @include m_query(phone) {
+    @include text_dimensions(25px, 27px, center, $royal_night);
+  }
+}
